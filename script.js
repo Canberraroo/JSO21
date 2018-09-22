@@ -10,8 +10,8 @@ $("#make").click( () => {
 
 $("#make").click( () => (
 
-  let name = $("#input2").val();
-  $("p").append(`${name}years old `);
+  let age = $("#input2").val();
+  $("p").append(`${age}years old `);
 
 
 });
