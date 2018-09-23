@@ -8,7 +8,7 @@ $("#make").click( () => {
 
 });
 
-$("#make").click( () => (
+$("#make").click( () => {
 
   let age = $("#input2").val();
   $("p").append(`${age}years old `);
