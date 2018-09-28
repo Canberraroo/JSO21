@@ -1,4 +1,5 @@
 
+$(document).ready(function() {
 $("#make").click( () => {
 
   let name = $("#input1").val();
@@ -11,11 +12,11 @@ $("#make").click( () => {
 $("#make").click( () => {
 
   let age = $("#input2").val();
-  $("p").append(`${age}years old `);
+  $("p").append(`${age} years old `);
 
 
 });
-
+});
 //function multiNumbers(x,y){
 
 //return(x*y)
