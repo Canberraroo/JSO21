@@ -2,13 +2,15 @@
 <html>
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <styles src="stylescity.css"></script>
     </head>
 
     <body>
-        <p>I love <span id="myCity">New York</span></p>
+        <p>I love <span id="myCity"></span></p>
 
         <script>
-            alert($('#myCity').text())
+            const cityName= "New York";
+            $('#myCity').html(cityName);
         </script>
     </body>
 

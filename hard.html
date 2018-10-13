@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <p id="name">Laura</p>
+  <p id="city">NYC</p>
+ <p id="sentence"></p>
+ <span></span>
+</body>
+<script>
+const TheName= $("#name").text();
+const TheCity= $("#city").text();
+const TheSentance= TheName+" loves "+TheCity;
+const TheSentance2= TheName+" loves fries";
+$('#sentence').html(TheSentance2);
+$('span').html(TheSentance)
+</script>

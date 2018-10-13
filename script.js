@@ -20,7 +20,6 @@ $("#make").click( () => {
 //function multiNumbers(x,y){
 
 //return(x*y)
-//}
 //let x= 2
 //let y=1
 //let z= 0
